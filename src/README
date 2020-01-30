@@ -1,0 +1,1 @@
+gcc -o ./botnet ../botnet.c  -lssh -lcrypto -lz -ldl -static -lgssglue

